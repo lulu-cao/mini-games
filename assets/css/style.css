@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: linear-gradient(217deg, rgba(15, 88, 223, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(31, 181, 226, 0.8), rgba(60, 131, 197, 0) 70.71%),
+    linear-gradient(336deg, rgba(3, 38, 92, 0.8), rgba(33, 100, 245, 0) 70.71%);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.float-left {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    flex: 1 1 700px;
+}
+
+.float-right {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+    flex: 1 1 300px;
+}
